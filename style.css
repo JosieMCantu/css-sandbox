@@ -1,8 +1,9 @@
 body {
+    box-sizing: border-box;
     background-color: white;
 }
-
 div {
+    margin: auto;
     text-align: center;
     height: 200px;
     width: 300px;
@@ -10,16 +11,22 @@ div {
     border-radius: 25px;
 }
 h1 {
-    border-top: dotted black;
-    border-bottom: dotted black;
-    background-color: red;
+    border-top: black;
+    border-bottom: black;
+    background-color: rgb(226, 41, 41);
     color: black;
+    height: px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2 {
     background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 p {
-   font-family: monospace; 
+   font-family: 'Bradley Hand'; 
    font-style: italic;
-   font-size: 30px;
+   font-size: 35px;
+   background-color: black;
+   color: white;
 }
